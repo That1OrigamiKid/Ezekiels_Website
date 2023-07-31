@@ -1,4 +1,4 @@
-const passwords = ['malachil0612', 'test', '']
+const passwords = ['malachil0612', 'test', 'ezekiel']
 function malachi() {
     if (passwords.includes(prompt("WHATS THE PASSWORD!!!"))) {
         window.location.href = "malachi/index.html"
