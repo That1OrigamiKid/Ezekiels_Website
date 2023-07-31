@@ -1,6 +1,6 @@
 html {
-  height: 100%
-  width: 100%
+  height: 100%;
+  width: 100%;
 }
 @font-face {font-family: okfont; src: url('https://scratch-games.that1origamikid.repl.co/fonts/Okfont-Regular.ttf');} 
   h1 {font-family: okfont}
@@ -11,6 +11,6 @@ html {
 a {color:salmon}
 h1 {color:orangered}
 h2 {color:steelblue}
-body {background-color:black}
+body {background-image: url(IMG_1781.png);}
 p {color:white}
 .centeraligned {text-align: center;}
