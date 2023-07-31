@@ -1,5 +1,6 @@
+const passwords = ['malachil0612', 'test', '']
 function malachi() {
-    if (prompt("WHATS THE PASSWORD!!!") == "malachil0612") {
+    if (passwords.includes(prompt("WHATS THE PASSWORD!!!"))) {
         window.location.href = "malachi/index.html"
     }
     else {
@@ -7,7 +8,7 @@ function malachi() {
     }
 };
 function ezekiel() {
-    if (prompt("WHATS THE PASSWORD!!!") == "") {
+    if (passwords.includes(prompt("WHATS THE PASSWORD!!!"))) {
         window.location.href = "ezekiel/index.html"
     }
     else {
